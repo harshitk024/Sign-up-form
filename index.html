@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <div class = "container">
+       <div class = "img">
+          <!-- <img src="background-img.jpg" id = "background-img" > -->
+          <div class = "img-text">
+            <h1 class="space-grotesk">Welcome, Sign Up !</h1>
+          </div>
+       </div>
+       <div class = "main-sec">
+          <div class="header"><p>
+            Welcome to the sign-up Page! We believe you have the Power to bring the Change in your Life.<br>
+            Sign up <em>now</em> to get started.
+          </p></div>
+            
+          <div class="sign-up">
+            <h3>Let's do this!</h3>
+            
+            <div class = "form">
+
+            <form>
+
+              <div class = "form-input">
+                <label for = "first-name">FIRST NAME</label>
+                <input name = "first-name" type = "text" required>
+              </div>
+
+              <div class="form-input">
+                <label for = "last-name">LAST NAME</label>
+                <input name = "last-name" type = "text">
+              </div>
+
+              <div class="form-input">
+                <label for = "email">EMAIL</label>
+                <input name = "email" type = "email" id = "email">
+              </div>
+
+              <div class="form-input">
+
+                <label for = "number">PHONE NUMBER</label>
+                <input name = "number" inputmode="numeric" id = "phone">
+                <div id = "error-message-phone" class = "error-message"></div>
+              </div>
+              
+              <div class="form-input">
+                <label for = "password">PASSWORD</label>
+                <input name = "password" type="password" id = "password" required>
+                <div class = "error-message" id = "error-message-password"></div>
+              </div>
+
+              <div class="form-input">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input name = "confirm" type="password" id = "confirm-password">
+                <div id = "error-message-password-confirm" class = "error-message"></div>
+              </div>
+
+              <div id = "submit-button">
+                <button type="submit">Create Account</button>
+                <p>Already have an Account?<span style="color: #0b76ae;font-weight: 700;"> Log in</span></p>
+              </div>
+            
+            </form>
+           </div>
+          </div>
+          <div class="footer"></div>
+       </div>
+   </div>
+</body>
+</html>
